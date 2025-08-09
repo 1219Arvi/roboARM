@@ -1,0 +1,6 @@
+Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake /home/zine/ws_moveit/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/serial
+Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake /home/zine/ws_moveit/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/serial
+Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake --build /home/zine/ws_moveit/build/serial -- -j12 -l12
+Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake --build /home/zine/ws_moveit/build/serial -- -j12 -l12
+Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake --install /home/zine/ws_moveit/build/serial
+Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake --install /home/zine/ws_moveit/build/serial

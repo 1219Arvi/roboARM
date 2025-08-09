@@ -1,0 +1,4 @@
+/home/zine/ws_moveit/install/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant
+/home/zine/ws_moveit/install/moveit_setup_assistant/lib/moveit_setup_assistant/collisions_updater
+/home/zine/ws_moveit/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantTargetsExport.cmake
+/home/zine/ws_moveit/install/moveit_setup_assistant/share/moveit_setup_assistant/cmake/moveit_setup_assistantTargetsExport-release.cmake

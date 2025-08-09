@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2_tutorials/doc/examples/move_group_interface/launch/move_group.launch.py

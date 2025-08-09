@@ -1,0 +1,62 @@
+[0.310s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_prbt_support
+[3.667s] -- The C compiler identification is GNU 11.4.0
+[3.910s] -- The CXX compiler identification is GNU 11.4.0
+[4.052s] -- Detecting C compiler ABI info
+[4.481s] -- Detecting C compiler ABI info - done
+[4.493s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[4.493s] -- Detecting C compile features
+[4.494s] -- Detecting C compile features - done
+[4.498s] -- Detecting CXX compiler ABI info
+[4.606s] -- Detecting CXX compiler ABI info - done
+[4.626s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[4.626s] -- Detecting CXX compile features
+[4.627s] -- Detecting CXX compile features - done
+[4.627s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.833s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.911s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.030s] -- Configuring done
+[5.033s] -- Generating done
+[5.034s] -- Build files have been written to: /home/zine/ws_moveit/build/moveit_resources_prbt_support
+[5.040s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_prbt_support
+[5.041s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_prbt_support -- -j12 -l12
+[5.084s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_prbt_support -- -j12 -l12
+[5.085s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_prbt_support
+[5.126s] -- Install configuration: ""
+[5.126s] -- Execute custom install script
+[5.126s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[5.127s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[5.127s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[5.127s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[5.132s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[5.142s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[5.152s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[5.162s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[5.175s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[5.187s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[5.199s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[5.208s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[5.218s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[5.227s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[5.245s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[5.254s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[5.264s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[5.272s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[5.281s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[5.292s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[5.301s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[5.310s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[5.319s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[5.330s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[5.339s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[5.347s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[5.356s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[5.364s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[5.373s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[5.384s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[5.392s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[5.400s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[5.410s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[5.418s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[5.427s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[5.437s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_prbt_support

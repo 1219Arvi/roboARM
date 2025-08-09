@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_kinematics/ament_cmake_core/moveit_kinematicsConfig.cmake

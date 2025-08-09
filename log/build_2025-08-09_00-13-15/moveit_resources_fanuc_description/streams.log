@@ -1,0 +1,56 @@
+[0.313s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit_resources/fanuc_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_fanuc_description
+[3.671s] -- The C compiler identification is GNU 11.4.0
+[3.943s] -- The CXX compiler identification is GNU 11.4.0
+[4.418s] -- Detecting C compiler ABI info
+[4.512s] -- Detecting C compiler ABI info - done
+[4.525s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[4.526s] -- Detecting C compile features
+[4.527s] -- Detecting C compile features - done
+[4.531s] -- Detecting CXX compiler ABI info
+[4.665s] -- Detecting CXX compiler ABI info - done
+[4.676s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[4.676s] -- Detecting CXX compile features
+[4.677s] -- Detecting CXX compile features - done
+[4.681s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.852s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.936s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.037s] -- Configuring done
+[5.039s] -- Generating done
+[5.040s] -- Build files have been written to: /home/zine/ws_moveit/build/moveit_resources_fanuc_description
+[5.060s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit_resources/fanuc_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_fanuc_description
+[5.061s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_fanuc_description -- -j12 -l12
+[5.104s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_fanuc_description -- -j12 -l12
+[5.106s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_fanuc_description
+[5.235s] -- Install configuration: ""
+[5.235s] -- Execute custom install script
+[5.235s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_description
+[5.235s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_description
+[5.235s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.sh
+[5.235s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.dsv
+[5.235s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.sh
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.dsv
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.bash
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.sh
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.zsh
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.dsv
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv
+[5.236s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/packages/moveit_resources_fanuc_description
+[5.241s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig.cmake
+[5.249s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig-version.cmake
+[5.258s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.xml
+[5.267s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/base_link.stl
+[5.275s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_1.stl
+[5.284s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_2.stl
+[5.292s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_3.stl
+[5.301s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_4.stl
+[5.309s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_5.stl
+[5.319s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_6.stl
+[5.329s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/base_link.stl
+[5.340s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_1.stl
+[5.349s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_2.stl
+[5.359s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_3.stl
+[5.368s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_4.stl
+[5.377s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_5.stl
+[5.386s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_6.stl
+[5.395s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/urdf/fanuc.urdf
+[5.405s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_fanuc_description

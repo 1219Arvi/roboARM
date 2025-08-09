@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h

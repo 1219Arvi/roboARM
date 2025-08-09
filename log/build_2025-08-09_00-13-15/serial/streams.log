@@ -1,0 +1,87 @@
+[0.666s] Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake /home/zine/ws_moveit/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/serial
+[4.924s] -- The C compiler identification is GNU 11.4.0
+[4.924s] -- The CXX compiler identification is GNU 11.4.0
+[4.924s] -- Detecting C compiler ABI info
+[4.925s] -- Detecting C compiler ABI info - done
+[4.926s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[4.926s] -- Detecting C compile features
+[4.926s] -- Detecting C compile features - done
+[4.926s] -- Detecting CXX compiler ABI info
+[4.926s] -- Detecting CXX compiler ABI info - done
+[4.926s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[4.926s] -- Detecting CXX compile features
+[4.926s] -- Detecting CXX compile features - done
+[4.926s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.926s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.034s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[6.062s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.560s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.235s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.982s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.017s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.444s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.530s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.027s] -- Looking for pthread.h
+[10.233s] -- Looking for pthread.h - found
+[10.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.383s] -- Found Threads: TRUE  
+[13.166s] -- Configuring done
+[13.174s] -- Generating done
+[13.175s] [33mCMake Warning:
+[13.175s]   Manually-specified variables were not used by the project:
+[13.175s] 
+[13.175s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[13.175s]     CATKIN_SYMLINK_INSTALL
+[13.175s] 
+[13.176s] [0m
+[13.178s] -- Build files have been written to: /home/zine/ws_moveit/build/serial
+[13.187s] Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake /home/zine/ws_moveit/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/serial
+[13.188s] Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake --build /home/zine/ws_moveit/build/serial -- -j12 -l12
+[13.240s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[13.240s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[13.241s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[14.120s] [ 66%] [32m[1mLinking CXX shared library libserial.so[0m
+[14.561s] [ 66%] Built target serial
+[14.584s] [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[14.710s] [100%] [32m[1mLinking CXX executable serial_example[0m
+[14.893s] [100%] Built target serial_example
+[14.903s] Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake --build /home/zine/ws_moveit/build/serial -- -j12 -l12
+[14.905s] Invoking command in '/home/zine/ws_moveit/build/serial': /usr/bin/cmake --install /home/zine/ws_moveit/build/serial
+[14.912s] -- Install configuration: ""
+[14.912s] -- Installing: /home/zine/ws_moveit/install/serial/lib/libserial.so
+[14.913s] -- Installing: /home/zine/ws_moveit/install/serial/bin/serial_example
+[14.913s] -- Set runtime path of "/home/zine/ws_moveit/install/serial/bin/serial_example" to ""
+[14.913s] -- Installing: /home/zine/ws_moveit/install/serial/include
+[14.913s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial
+[14.913s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial/serial.h
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial/v8stdint.h
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial/impl
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial/impl/win.h
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/include/serial/impl/unix.h
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/library_path.sh
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/library_path.dsv
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[14.914s] -- Installing: /home/zine/ws_moveit/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.sh
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.dsv
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/path.sh
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/environment/path.dsv
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/local_setup.bash
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/local_setup.sh
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/local_setup.zsh
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/local_setup.dsv
+[14.915s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/package.dsv
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/ament_index/resource_index/packages/serial
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/export_serialExport.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/serialConfig.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/cmake/serialConfig-version.cmake
+[14.916s] -- Installing: /home/zine/ws_moveit/install/serial/share/serial/package.xml
+[14.918s] Invoked command in '/home/zine/ws_moveit/build/serial' returned '0': /usr/bin/cmake --install /home/zine/ws_moveit/build/serial

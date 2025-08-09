@@ -1,0 +1,4 @@
+/home/zine/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.7
+/home/zine/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+/home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+/home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake

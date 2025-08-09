@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit/ament_cmake_core/moveitConfig-version.cmake

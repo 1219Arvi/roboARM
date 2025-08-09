@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/lab_arm_config/ament_cmake_core/lab_arm_configConfig-version.cmake

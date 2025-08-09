@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zine/ws_moveit/build/moveit_visual_tools/moveit_visual_tools_demo" "TARGETS" "moveit_visual_tools_demo" "RUNTIME_DESTINATION" "lib/moveit_visual_tools")

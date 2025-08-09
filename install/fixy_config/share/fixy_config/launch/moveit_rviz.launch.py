@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/fixy_config/launch/moveit_rviz.launch.py

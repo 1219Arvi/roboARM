@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/lab_arm_config/launch/rsp.launch.py

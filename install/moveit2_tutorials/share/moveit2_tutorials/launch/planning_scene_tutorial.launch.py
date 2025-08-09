@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2_tutorials/doc/examples/planning_scene/launch/planning_scene_tutorial.launch.py

@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2_tutorials/doc/examples/robot_model_and_robot_state/launch/robot_model_and_robot_state_tutorial.launch.py

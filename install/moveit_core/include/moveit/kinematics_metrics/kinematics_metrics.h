@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_core/kinematics_metrics/include/moveit/kinematics_metrics/kinematics_metrics.h

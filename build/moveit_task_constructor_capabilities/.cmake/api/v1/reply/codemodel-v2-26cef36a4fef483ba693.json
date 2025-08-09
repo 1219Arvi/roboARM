@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7ccc212ad9c53978e431.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_task_constructor_capabilities",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_capabilities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_capabilities-Release-53be1ed2f7def6bfdd2f.json",
+					"name" : "moveit_task_constructor_capabilities",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_task_constructor_capabilities_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_task_constructor_capabilities_uninstall-Release-12d9b60eb36b89fbfad9.json",
+					"name" : "moveit_task_constructor_capabilities_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-460f85a32fa5174234a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zine/ws_moveit/build/moveit_task_constructor_capabilities",
+		"source" : "/home/zine/ws_moveit/src/moveit_task_constructor/capabilities"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+/home/zine/ws_moveit/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.5.8
+/home/zine/ws_moveit/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+/home/zine/ws_moveit/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.8
+/home/zine/ws_moveit/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+/home/zine/ws_moveit/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport.cmake
+/home/zine/ws_moveit/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport-release.cmake

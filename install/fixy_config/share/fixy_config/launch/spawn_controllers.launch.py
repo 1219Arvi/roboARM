@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/fixy_config/launch/spawn_controllers.launch.py

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fixy">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import fixy urdf file -->
+    <xacro:include filename="$(find fixy_description)/urdf/fixy.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="fixy.ros2_control.xacro" />
+
+
+    <xacro:fixy_ros2_control name="FixyArm" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

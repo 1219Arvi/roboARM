@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_ros/robot_interaction/include/moveit/robot_interaction/interaction_handler.h

@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_setup_controllers/ament_cmake_environment_hooks/local_setup.sh

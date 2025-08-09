@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/hardware_controller/include/hardware_controller/hardware_controller.hpp

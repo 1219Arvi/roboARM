@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_ros/ament_cmake_core/moveit_rosConfig-version.cmake

@@ -1,0 +1,103 @@
+[0.046s] Invoking command in '/home/zine/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/srdfdom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/srdfdom
+[3.900s] -- The CXX compiler identification is GNU 11.4.0
+[4.067s] -- Detecting CXX compiler ABI info
+[4.277s] -- Detecting CXX compiler ABI info - done
+[4.289s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[4.289s] -- Detecting CXX compile features
+[4.333s] -- Detecting CXX compile features - done
+[4.695s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[4.881s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.072s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.313s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[6.095s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.288s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.325s] -- Found ament_cmake_pytest: 1.3.12 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[8.754s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.856s] -- The C compiler identification is GNU 11.4.0
+[8.958s] -- Detecting C compiler ABI info
+[9.029s] -- Detecting C compiler ABI info - done
+[9.042s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[9.043s] -- Detecting C compile features
+[9.043s] -- Detecting C compile features - done
+[9.141s] -- Looking for C++ include pthread.h
+[9.908s] -- Looking for C++ include pthread.h - found
+[9.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.052s] -- Found Threads: TRUE  
+[10.056s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.422s] -- Configuring done
+[10.435s] -- Generating done
+[10.441s] -- Build files have been written to: /home/zine/ws_moveit/build/srdfdom
+[10.448s] Invoked command in '/home/zine/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/srdfdom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/srdfdom
+[10.449s] Invoking command in '/home/zine/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/srdfdom -- -j12 -l12
+[10.501s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.501s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[10.501s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.502s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[10.509s] [ 36%] Built target ament_cmake_python_symlink_srdfdom
+[10.729s] running egg_info
+[10.730s] creating srdfdom.egg-info
+[10.730s] writing srdfdom.egg-info/PKG-INFO
+[10.730s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[10.730s] writing top-level names to srdfdom.egg-info/top_level.txt
+[10.731s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[10.732s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[10.732s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[10.756s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[13.590s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.818s] [ 45%] Built target gtest_main
+[13.836s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[14.165s] [ 54%] Built target gtest
+[16.181s] [ 63%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[16.599s] [ 63%] Built target srdfdom
+[16.622s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[16.622s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[17.501s] [ 90%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[17.530s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[17.674s] [100%] Built target test_cpp_nl_NL.UTF-8
+[18.318s] [100%] Built target test_cpp_C
+[18.338s] Invoked command in '/home/zine/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/srdfdom -- -j12 -l12
+[18.339s] Invoking command in '/home/zine/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/srdfdom
+[18.347s] -- Install configuration: ""
+[18.347s] -- Execute custom install script
+[18.348s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/model.h
+[18.356s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[18.365s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[18.373s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/lib/srdfdom/display_srdf
+[18.382s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[18.390s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[18.399s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/PKG-INFO
+[18.408s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/SOURCES.txt
+[18.416s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/dependency_links.txt
+[18.424s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/top_level.txt
+[18.433s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[18.442s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[18.450s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.sh
+[18.459s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[18.467s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[18.476s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[18.484s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[18.493s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[18.501s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/path.sh
+[18.510s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/environment/path.dsv
+[18.518s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/local_setup.bash
+[18.527s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/local_setup.sh
+[18.535s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/local_setup.zsh
+[18.544s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/local_setup.dsv
+[18.552s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/package.dsv
+[18.561s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[18.569s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[18.578s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.587s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[18.595s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[18.604s] -- Symlinking: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/package.xml
+[18.612s] -- Installing: /home/zine/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.7
+[18.614s] -- Set runtime path of "/home/zine/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.7" to ""
+[18.614s] -- Installing: /home/zine/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+[18.783s] Listing '/home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[18.783s] Compiling '/home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[18.783s] Compiling '/home/zine/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[18.787s] -- Installing: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[18.787s] -- Installing: /home/zine/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[18.789s] Invoked command in '/home/zine/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/srdfdom

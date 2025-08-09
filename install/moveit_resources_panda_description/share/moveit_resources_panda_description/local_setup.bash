@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_resources_panda_description/ament_cmake_environment_hooks/local_setup.bash

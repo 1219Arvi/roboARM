@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_assistant/launch/setup_assistant.launch.py

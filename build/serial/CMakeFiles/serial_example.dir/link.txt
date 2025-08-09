@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/serial_example.dir/examples/serial_example.cc.o -o serial_example  -Wl,-rpath,/home/zine/ws_moveit/build/serial: libserial.so -lrt -lpthread 

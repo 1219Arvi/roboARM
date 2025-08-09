@@ -1,0 +1,33 @@
+[7.861s] Invoking command in '/home/zine/ws_moveit/build/launch_param_builder': PYTHONPATH=/home/zine/ws_moveit/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zine/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zine/ws_moveit/build/launch_param_builder/build --no-deps symlink_data
+[8.126s] running develop
+[8.295s] running egg_info
+[8.295s] creating launch_param_builder.egg-info
+[8.295s] writing launch_param_builder.egg-info/PKG-INFO
+[8.295s] writing dependency_links to launch_param_builder.egg-info/dependency_links.txt
+[8.295s] writing entry points to launch_param_builder.egg-info/entry_points.txt
+[8.295s] writing requirements to launch_param_builder.egg-info/requires.txt
+[8.295s] writing top-level names to launch_param_builder.egg-info/top_level.txt
+[8.296s] writing manifest file 'launch_param_builder.egg-info/SOURCES.txt'
+[8.297s] reading manifest file 'launch_param_builder.egg-info/SOURCES.txt'
+[8.297s] writing manifest file 'launch_param_builder.egg-info/SOURCES.txt'
+[8.298s] running build_ext
+[8.298s] Creating /home/zine/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages/launch-param-builder.egg-link (link to .)
+[8.299s] 
+[8.299s] Installed /home/zine/ws_moveit/build/launch_param_builder
+[8.299s] running symlink_data
+[8.299s] creating /home/zine/ws_moveit/install/launch_param_builder/share/ament_index
+[8.299s] creating /home/zine/ws_moveit/install/launch_param_builder/share/ament_index/resource_index
+[8.299s] creating /home/zine/ws_moveit/install/launch_param_builder/share/ament_index/resource_index/packages
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/resource/launch_param_builder -> /home/zine/ws_moveit/install/launch_param_builder/share/ament_index/resource_index/packages
+[8.300s] creating /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/launch
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/example/launch_param_builder_example.launch.py -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/launch
+[8.300s] creating /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/test/data/parameter.xacro -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/test/data/parameters.yaml -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/test/data/param_file_to_inject.yaml -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/test/data/parameter_file -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/test/data/parameters_injection.yaml -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder/config
+[8.300s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/package.xml -> /home/zine/ws_moveit/install/launch_param_builder/share/launch_param_builder
+[8.300s] creating /home/zine/ws_moveit/install/launch_param_builder/lib/launch_param_builder
+[8.301s] symbolically linking /home/zine/ws_moveit/build/launch_param_builder/example/example_node.py -> /home/zine/ws_moveit/install/launch_param_builder/lib/launch_param_builder
+[8.331s] Invoked command in '/home/zine/ws_moveit/build/launch_param_builder' returned '0': PYTHONPATH=/home/zine/ws_moveit/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zine/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zine/ws_moveit/build/launch_param_builder/build --no-deps symlink_data

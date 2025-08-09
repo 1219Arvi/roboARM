@@ -1,0 +1,35 @@
+[0.049s] Invoking command in '/home/zine/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_common
+[0.701s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.975s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.550s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.561s] -- Added test 'lint_cmake' to check CMake code style
+[1.567s] -- Added test 'xmllint' to check XML markup files
+[1.595s] -- Configuring done
+[1.605s] -- Generating done
+[1.609s] -- Build files have been written to: /home/zine/ws_moveit/build/moveit_common
+[1.614s] Invoked command in '/home/zine/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_common
+[1.618s] Invoking command in '/home/zine/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_common -- -j12 -l12
+[5.062s] Invoked command in '/home/zine/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_common -- -j12 -l12
+[5.073s] Invoking command in '/home/zine/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_common
+[5.080s] -- Install configuration: ""
+[5.081s] -- Execute custom install script
+[5.081s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[5.090s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[5.104s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[5.110s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[5.118s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[5.129s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[5.141s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[5.152s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[5.162s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[5.172s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[5.182s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[5.193s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[5.205s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[5.214s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[5.223s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[5.233s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[5.241s] -- Symlinking: /home/zine/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[5.253s] Invoked command in '/home/zine/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_common

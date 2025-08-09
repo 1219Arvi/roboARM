@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_core/include/moveit/version.h

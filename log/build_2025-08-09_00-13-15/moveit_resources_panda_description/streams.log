@@ -1,0 +1,62 @@
+[0.053s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit_resources/panda_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_panda_description
+[3.690s] -- The C compiler identification is GNU 11.4.0
+[3.985s] -- The CXX compiler identification is GNU 11.4.0
+[4.078s] -- Detecting C compiler ABI info
+[4.500s] -- Detecting C compiler ABI info - done
+[4.513s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[4.513s] -- Detecting C compile features
+[4.514s] -- Detecting C compile features - done
+[4.518s] -- Detecting CXX compiler ABI info
+[4.706s] -- Detecting CXX compiler ABI info - done
+[4.717s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[4.718s] -- Detecting CXX compile features
+[4.719s] -- Detecting CXX compile features - done
+[4.723s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.918s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.095s] -- Configuring done
+[5.098s] -- Generating done
+[5.100s] -- Build files have been written to: /home/zine/ws_moveit/build/moveit_resources_panda_description
+[5.105s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake /home/zine/ws_moveit/src/moveit_resources/panda_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zine/ws_moveit/install/moveit_resources_panda_description
+[5.108s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_panda_description -- -j12 -l12
+[5.151s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --build /home/zine/ws_moveit/build/moveit_resources_panda_description -- -j12 -l12
+[5.154s] Invoking command in '/home/zine/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_panda_description
+[5.427s] -- Install configuration: ""
+[5.427s] -- Execute custom install script
+[5.427s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[5.428s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[5.429s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[5.429s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[5.429s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[5.429s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[5.429s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[5.430s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[5.431s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[5.432s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[5.432s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[5.433s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[5.435s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[5.444s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[5.453s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[5.461s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[5.471s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[5.480s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[5.488s] -- Symlinking: /home/zine/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[5.499s] Invoked command in '/home/zine/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zine/ws_moveit/install/moveit_configs_utils:/home/zine/ws_moveit/install/launch_param_builder:/home/zine/ws_moveit/install/fixy_description:/opt/ros/humble /usr/bin/cmake --install /home/zine/ws_moveit/build/moveit_resources_panda_description

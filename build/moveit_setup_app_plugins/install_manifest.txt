@@ -1,0 +1,3 @@
+/home/zine/ws_moveit/install/moveit_setup_app_plugins/lib/libmoveit_setup_app_plugins.so
+/home/zine/ws_moveit/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/export_moveit_setup_app_pluginsExport.cmake
+/home/zine/ws_moveit/install/moveit_setup_app_plugins/share/moveit_setup_app_plugins/cmake/export_moveit_setup_app_pluginsExport-release.cmake

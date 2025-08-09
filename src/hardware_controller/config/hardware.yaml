@@ -1,0 +1,14 @@
+hardware_parameters:
+  port: "/dev/ttyUSB0"
+  baudrate: "115200"
+  num_servos: "8"
+
+joints:
+  - name: joint_7
+  - name: joint_5
+  - name: joint_4
+  - name: joint_3
+  - name: joint_2
+  - name: joint_1
+  - name: joint_0
+  - name: joint_g

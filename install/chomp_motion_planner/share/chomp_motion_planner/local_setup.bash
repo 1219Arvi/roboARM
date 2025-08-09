@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/chomp_motion_planner/ament_cmake_environment_hooks/local_setup.bash

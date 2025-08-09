@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2_tutorials/doc/examples/motion_planning_api/launch/motion_planning_api_tutorial.launch.py

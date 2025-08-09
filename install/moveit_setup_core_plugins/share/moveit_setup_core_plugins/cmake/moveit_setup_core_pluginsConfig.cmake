@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_setup_core_plugins/ament_cmake_core/moveit_setup_core_pluginsConfig.cmake

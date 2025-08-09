@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_ros/benchmarks/examples/demo_panda_predefined_poses.launch.py

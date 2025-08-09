@@ -1,0 +1,3 @@
+/home/zine/ws_moveit/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+/home/zine/ws_moveit/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport.cmake
+/home/zine/ws_moveit/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport-release.cmake

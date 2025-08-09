@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/install/hardware_controller/lib/libhardware_controller.so

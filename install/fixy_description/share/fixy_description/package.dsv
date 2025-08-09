@@ -1,0 +1,9 @@
+source;share/fixy_description/hook/pythonpath.ps1
+source;share/fixy_description/hook/pythonpath.dsv
+source;share/fixy_description/hook/pythonpath.sh
+source;share/fixy_description/hook/ament_prefix_path.ps1
+source;share/fixy_description/hook/ament_prefix_path.dsv
+source;share/fixy_description/hook/ament_prefix_path.sh
+source;../../build/fixy_description/share/fixy_description/hook/pythonpath_develop.ps1
+source;../../build/fixy_description/share/fixy_description/hook/pythonpath_develop.dsv
+source;../../build/fixy_description/share/fixy_description/hook/pythonpath_develop.sh

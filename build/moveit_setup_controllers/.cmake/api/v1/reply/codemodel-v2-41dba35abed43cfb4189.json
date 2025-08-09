@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-145929b2f74c83925c7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_controllers",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-fa99122f7e35cc5f0a09.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_autogen::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_autogen-Release-66ed2a2ad8add386e81e.json",
+					"name" : "gtest_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-70dc0e36cb78fe1df076.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main_autogen::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main_autogen-Release-ce90a4b60f2e50bfbcc8.json",
+					"name" : "gtest_main_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers-Release-fc5fbaf94d6541941e5a.json",
+					"name" : "moveit_setup_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers_autogen-Release-6721f9f729872fd0ab15.json",
+					"name" : "moveit_setup_controllers_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_controllers_uninstall-Release-9ea82ed5368ef8b0d114.json",
+					"name" : "moveit_setup_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers-Release-b4fd6c87d5c67b779017.json",
+					"name" : "test_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_controllers_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_controllers_autogen-Release-f935e8f1dc3ec8435660.json",
+					"name" : "test_controllers_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2530db806f9b5ecaae33.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zine/ws_moveit/build/moveit_setup_controllers",
+		"source" : "/home/zine/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

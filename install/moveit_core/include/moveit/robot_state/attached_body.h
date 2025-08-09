@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_core/robot_state/include/moveit/robot_state/attached_body.h

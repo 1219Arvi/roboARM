@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h

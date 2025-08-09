@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit_task_constructor/demo/scripts/fix_collision_objects.py

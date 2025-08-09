@@ -1,0 +1,8 @@
+<library path="hardware_controller">
+  <class
+    name="hardware_controller/HardwareController"
+    type="hardware_controller::HardwareController"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>Serial servo hardware interface</description>
+  </class>
+</library>

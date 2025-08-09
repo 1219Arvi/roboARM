@@ -1,0 +1,4 @@
+source;share/fixy_config/local_setup.bash
+source;share/fixy_config/local_setup.dsv
+source;share/fixy_config/local_setup.sh
+source;share/fixy_config/local_setup.zsh

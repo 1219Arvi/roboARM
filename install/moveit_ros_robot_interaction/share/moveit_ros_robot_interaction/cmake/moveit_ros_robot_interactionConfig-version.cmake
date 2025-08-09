@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/moveit_ros_robot_interaction/ament_cmake_core/moveit_ros_robot_interactionConfig-version.cmake

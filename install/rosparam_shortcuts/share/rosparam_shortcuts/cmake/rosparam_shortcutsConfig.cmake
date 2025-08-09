@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/rosparam_shortcuts/ament_cmake_core/rosparam_shortcutsConfig.cmake

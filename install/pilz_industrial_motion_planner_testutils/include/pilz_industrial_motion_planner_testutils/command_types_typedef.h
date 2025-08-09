@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/command_types_typedef.h

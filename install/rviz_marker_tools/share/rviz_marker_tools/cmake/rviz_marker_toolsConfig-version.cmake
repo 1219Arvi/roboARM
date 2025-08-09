@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/rviz_marker_tools/ament_cmake_core/rviz_marker_toolsConfig-version.cmake

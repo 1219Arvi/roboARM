@@ -1,0 +1,1 @@
+/home/zine/ws_moveit/build/fixy_config/ament_cmake_core/fixy_configConfig.cmake

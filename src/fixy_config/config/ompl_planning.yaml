@@ -1,0 +1,32 @@
+controller_manager:
+  ros__parameters:
+    # Planning group configuration matching your SRDF
+    arm:
+      default_planner_config: RRTConnect
+      planner_configs:
+        - RRTConnect
+        - RRT
+        - RRTstar
+        - PRM
+      # Include virtual_joint in the projection evaluator
+      projection_evaluator: joints(virtual_joint,joint_0,joint_1,joint_2,joint_3,joint_4,joint_5,joint_7)
+      longest_valid_segment_fraction: 0.005
+      enforce_joint_model_state_space: false
+    
+    # Planner algorithm configurations
+    planner_configs:
+      RRTConnect:
+        type: geometric::RRTConnect
+        range: 0.0
+      RRT:
+        type: geometric::RRT
+        range: 0.0
+        goal_bias: 0.05
+      RRTstar:
+        type: geometric::RRTstar
+        range: 0.0
+        goal_bias: 0.05
+        delay_collision_checking: 1
+      PRM:
+        type: geometric::PRM
+        max_nearest_neighbors: 10

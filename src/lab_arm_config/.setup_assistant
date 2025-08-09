@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: fixy_description
+    relative_path: urdf/fixy.xacro
+  srdf:
+    relative_path: config/fixy.srdf
+  package_settings:
+    author_name: nigga
+    author_email: nigga@mnit.ac.in
+    generated_timestamp: 1744625382
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

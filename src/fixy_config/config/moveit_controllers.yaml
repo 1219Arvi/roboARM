@@ -1,0 +1,31 @@
+controller_manager:
+  ros__parameters:
+    # MoveIt uses this configuration for controller management
+    moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+    
+    moveit_simple_controller_manager:
+      controller_names:
+        - arm_controller
+        # - hand_controller
+      
+      arm_controller:
+        type: FollowJointTrajectory
+        joints:
+          - joint_0
+          - joint_1
+          - joint_2
+          - joint_3
+          - joint_4
+          - joint_5
+          - joint_7
+        action_ns: follow_joint_trajectory
+        allowed_execution_duration_scaling: 1.2  # More reasonable value
+        allowed_goal_duration_margin: 0.5        # More reasonable value
+        allowed_start_tolerance: 0.01            # More reasonable value
+      
+      # hand_controller:
+      #   type: GripperCommand
+      #   joints:
+      #     - joint_g
+      #   action_ns: gripper_cmd
+      #   default: true
