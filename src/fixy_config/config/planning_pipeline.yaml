@@ -1,4 +1,4 @@
-controller_manager:
+move_group:
   ros__parameters:
     default_planning_pipeline: ompl
     planning_pipelines:

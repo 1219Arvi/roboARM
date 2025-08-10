@@ -1,4 +1,4 @@
-controller_manager:
+move_group:
   ros__parameters:
     # Planning group configuration matching your SRDF
     arm:

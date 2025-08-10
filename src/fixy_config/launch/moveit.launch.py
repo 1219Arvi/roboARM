@@ -31,7 +31,7 @@ def generate_launch_description():
 
     # Modified planning pipeline configuration to match working example
     moveit_config = (
-        MoveItConfigsBuilder("rhea", package_name="fixy_config")
+        MoveItConfigsBuilder("fixy", package_name="fixy_config")
         .robot_description(mappings=launch_arguments)
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .planning_scene_monitor(
