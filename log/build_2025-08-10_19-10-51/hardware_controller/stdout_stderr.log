@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target hardware_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hardware_controller.dir/src/hardware_controller_arvi.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:4[m[K:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::read_servo_feedback()[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:447:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  447 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:446:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  446 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::validate_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:486:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  486 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:485:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  485 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::validate_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:498:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  498 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:497:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  497 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::validate_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:508:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  508 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:507:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  507 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::validate_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:517:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  517 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:516:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  516 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In member function ‘[01m[Kbool hardware_controller::HardwareController::validate_packet(const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:530:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<rclcpp::Clock>[m[K’ has no member named ‘[01m[Kget_clock[m[K’
+  530 |                            *rclcpp::Clock::make_shared().[01;31m[Kget_clock[m[K(), 1000,
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:[m[K In lambda function:
+[01m[K/home/zine/ws_moveit/src/hardware_controller/src/hardware_controller_arvi.cpp:529:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ was not declared in this scope
+  529 |       [01;31m[KRCLCPP_WARN_THROTTLE[m[K(rclcpp::get_logger("HardwareController"),
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hardware_controller.dir/build.make:76: CMakeFiles/hardware_controller.dir/src/hardware_controller_arvi.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hardware_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

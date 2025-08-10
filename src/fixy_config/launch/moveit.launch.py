@@ -20,7 +20,6 @@ def generate_launch_description():
         "dof": "7",
     }
 
-    # Robot description from xacro command
     robot_description = {
         "robot_description": Command([
             "xacro ",
@@ -35,7 +34,6 @@ def generate_launch_description():
         ])
     }
 
-    # Semantic description loaded as string (not a path)
     robot_description_semantic = {
         "robot_description_semantic": open(
             os.path.join(
@@ -46,12 +44,35 @@ def generate_launch_description():
         ).read()
     }
 
-    # For move_group, load these YAML files as dicts so they can be passed as parameters directly
     kinematics_yaml = load_yaml("fixy_config", "config/kinematics.yaml")
     ompl_planning_yaml = load_yaml("fixy_config", "config/ompl_planning.yaml")
     planning_pipeline_yaml = load_yaml("fixy_config", "config/planning_pipeline.yaml")
     moveit_controllers_yaml = load_yaml("fixy_config", "config/moveit_controllers.yaml")
     moveit_controllers_manager_yaml = load_yaml("fixy_config", "config/moveit_controller_manager.yaml")
+    joint_limits_yaml = load_yaml("fixy_config", "config/joint_limits.yaml")
+    pilz_cartesian_limits_yaml = load_yaml("fixy_config", "config/pilz_cartesian_limits.yaml")
+
+    planning_pipeline_config = {
+        "move_group": {
+            "planning_pipelines": ["ompl", "chomp", "pilz_industrial_motion_planner"],
+            "default_planning_pipeline": "ompl",
+        }
+    }
+
+    trajectory_execution = {
+        "moveit_manage_controllers": True,
+        "trajectory_execution.allowed_execution_duration_scaling": 1.2,
+        "trajectory_execution.allowed_goal_duration_margin": 0.5,
+        "trajectory_execution.allowed_start_tolerance": 0.01,
+    }
+
+    planning_scene_monitor_parameters = {
+        "publish_planning_scene": True,
+        "publish_geometry_updates": True,
+        "publish_state_updates": True,
+        "publish_transforms_updates": True,
+    }
+
 
     ros2_controllers_yaml_path = os.path.join(
         get_package_share_directory("fixy_config"),
@@ -64,7 +85,6 @@ def generate_launch_description():
         "ros2_controllers.yaml"
     )
 
-    # RViz config argument
     rviz_config_arg = DeclareLaunchArgument(
         "rviz_config",
         default_value=PathJoinSubstitution([
@@ -76,7 +96,6 @@ def generate_launch_description():
     )
     rviz_config = LaunchConfiguration("rviz_config")
 
-    # Nodes
     static_tf = Node(
         package="tf2_ros",
         executable="static_transform_publisher",
@@ -98,7 +117,6 @@ def generate_launch_description():
         output="screen",
         parameters=[robot_description, ros2_controllers_yaml_path],  # pass YAML path here
     )
-
     run_move_group_node = Node(
         package="moveit_ros_move_group",
         executable="move_group",
@@ -110,7 +128,12 @@ def generate_launch_description():
             ompl_planning_yaml,
             planning_pipeline_yaml,
             moveit_controllers_yaml,
-            moveit_controllers_manager_yaml,  # << Add here
+            moveit_controllers_manager_yaml,
+            joint_limits_yaml,  # ADD THIS
+            pilz_cartesian_limits_yaml,  # ADD THIS
+            planning_pipeline_config,  # ADD THIS
+            trajectory_execution,  # ADD THIS
+            planning_scene_monitor_parameters,  # ADD THIS
         ],
         arguments=['--ros-args', '--log-level', 'debug'],
     )
@@ -128,10 +151,14 @@ def generate_launch_description():
             ompl_planning_yaml,
             planning_pipeline_yaml,
             moveit_controllers_yaml,
-            moveit_controllers_manager_yaml,  # << Add here
+            moveit_controllers_manager_yaml,
+            joint_limits_yaml,  # ADD THIS
+            pilz_cartesian_limits_yaml,  # ADD THIS
+            planning_pipeline_config,  # ADD THIS
+            trajectory_execution,  # ADD THIS
+            planning_scene_monitor_parameters,  # ADD THIS
         ],
     )
-
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
@@ -163,17 +190,17 @@ def generate_launch_description():
     )
 
     delayed_move_group = TimerAction(
-        period=10.0,  # seconds, adjust as needed
+        period=10.0,
         actions=[run_move_group_node]
     )
 
     return LaunchDescription([
-        rviz_config_arg,
         static_tf,
         robot_state_publisher,
         ros2_control_node,
         joint_state_broadcaster_event,
         arm_controller_event,
         delayed_move_group,
+        rviz_config_arg,
         rviz_node,
     ])

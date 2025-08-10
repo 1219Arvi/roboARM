@@ -1,13 +1,38 @@
+planning_plugin: ompl_interface/OMPLPlanner
+request_adapters:
+  - default_planner_request_adapters/AddTimeParameterization
+  - default_planner_request_adapters/FixWorkspaceBounds
+  - default_planner_request_adapters/FixStartStateBounds
+  - default_planner_request_adapters/FixStartStateCollision
+start_state_max_bounds_error: 0.1
+
+arm:
+  default_planner_config: RRTConnect
+  planner_configs:
+    - RRTConnect
+    - RRT
+    - RRTstar
+    - PRM
+  projection_evaluator: joints(joint_0,joint_1)
+  longest_valid_segment_fraction: 0.01
+
+hand:
+  default_planner_config: RRTConnect
+  planner_configs:
+    - RRTConnect
+    - RRT
+
 planner_configs:
-  RRTConnectkConfigDefault:
+  RRTConnect:
     type: geometric::RRTConnect
     range: 0.0
-  PRMkConfigDefault:
-    type: geometric::PRM
+  RRT:
+    type: geometric::RRT
     range: 0.0
-
-planning:
-  allow_approximate_solution: true
-  error_threshold: 0.05
-  max_solution_time: 5.0
-  max_goal_samples: 20
+  RRTstar:
+    type: geometric::RRTstar
+    range: 0.0
+    goal_bias: 0.05
+  PRM:
+    type: geometric::PRM
+    max_nearest_neighbors: 10
