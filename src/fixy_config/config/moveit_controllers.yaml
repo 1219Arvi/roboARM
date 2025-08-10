@@ -6,7 +6,7 @@ moveit_simple_controller_manager:
     moveit_simple_controller_manager:
       controller_names:
         - arm_controller
-        # - hand_controller
+        - hand_controller
       
       arm_controller:
         type: FollowJointTrajectory
@@ -23,9 +23,9 @@ moveit_simple_controller_manager:
         allowed_goal_duration_margin: 0.5        # More reasonable value
         allowed_start_tolerance: 0.01            # More reasonable value
       
-      # hand_controller:
-      #   type: GripperCommand
-      #   joints:
-      #     - joint_g
-      #   action_ns: gripper_cmd
-      #   default: true
+      hand_controller:
+        type: GripperCommand
+        joints:
+          - joint_g
+        action_ns: gripper_cmd
+        default: true

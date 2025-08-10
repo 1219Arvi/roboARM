@@ -30,6 +30,7 @@
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/joint_limits.yaml
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/kinematics.yaml
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/moveit.rviz
+/home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/moveit_controller_manager.yaml
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/moveit_controllers.yaml
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/ompl_planning.yaml
 /home/zine/ws_moveit/install/fixy_config/share/fixy_config/config/pilz_cartesian_limits.yaml

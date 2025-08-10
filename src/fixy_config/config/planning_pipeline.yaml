@@ -1,16 +1,20 @@
-move_group:
-  ros__parameters:
-    default_planning_pipeline: ompl
-    planning_pipelines:
-      ompl:
-        planning_plugin: ompl_interface/OMPLPlanner
-        request_adapters: >-
-          default_planner_request_adapters/AddTimeOptimalParameterization
-          default_planner_request_adapters/FixWorkspaceBounds
-          default_planner_request_adapters/FixStartStateBounds
-          default_planner_request_adapters/FixStartStateCollision
-          default_planner_request_adapters/FixStartStatePathConstraints
-        response_adapters: >-
-          default_planner_response_adapters/AddTimeOptimalParameterization
-          default_planner_response_adapters/ValidateSolution
-        start_state_max_bounds_error: 0.1
+planning_pipelines:
+  chomp:
+    planning_plugin: chomp_interface/CHOMPPlanner
+    request_adapters:
+      - default_planner_request_adapters/AddTimeParameterization
+      - default_planner_request_adapters/FixWorkspaceBounds
+      - default_planner_request_adapters/FixStartStateBounds
+      - default_planner_request_adapters/FixStartStateCollision
+    start_state_max_bounds_error: 0.1
+
+planner_configs:
+  ChompConfigDefault:
+    type: geometric::CHOMP
+    max_iterations: 100
+    max_iterations_after_collision_free: 20
+    obstacle_cost_weight: 20.0
+    smoothness_cost_weight: 0.05
+    collision_cost_exponent: 20.0
+    initial_smoothing: 10
+    optimization_objective: smoothness_and_collision
